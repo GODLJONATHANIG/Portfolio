@@ -396,6 +396,7 @@ section{
 
 .about-content p{
     font-size: 15px;
+    text-align: justify;
 }
 
 .text-box p{
@@ -1367,7 +1368,7 @@ textarea:focus {
         width: 100%;
     }
     .text-animate{
-        width: 23.8rem;
+        width: 28.8rem;
     }
     .btn-box{
         width: 266px;
