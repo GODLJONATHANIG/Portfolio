@@ -24,6 +24,7 @@
 a{
     text-decoration: none;
     color: #000;
+    font-size: 18px;
 }
 
 body{
@@ -134,6 +135,7 @@ ul.navlist{
 /* ==================== home section css code ============================ */
 section{
     padding: 30px 8%;
+    font-size: 20px;
 }
 
 .home{
@@ -160,6 +162,7 @@ section{
 
 .hero-info h1{
     font-size: 3.5rem;
+ 
 }
 
 .text-animate{
@@ -168,8 +171,8 @@ section{
 }
 
 .text-animate h2{
-    font-size: 1.8rem;
-    font-weight: 700;
+    font-size: 24px;
+    font-weight: 500;
     margin-bottom: 1rem;
     color: transparent;
     background: var(--gradient-color-bg);
@@ -206,7 +209,8 @@ section{
     justify-content: space-between;
     width: 320px;
     margin-top: 2rem;
-    margin-bottom: 6rem;
+    margin-bottom: 20px;
+    gap:30px;
 }
 
 .btn-box .btn{
@@ -391,7 +395,7 @@ section{
 }
 
 .about-content p{
-    color: var(--font-color);
+    font-size: 15px;
 }
 
 .text-box p{
@@ -448,85 +452,6 @@ section{
 
 
 
-/* Add 3D perspective */
-.servicesItem {
-    perspective: 1000px;
-}
-
-.flip-card {
-    width: 300px; /* Adjust size */
-    height: 200px; /* Adjust size */
-    position: relative;
-}
-
-.flip-card-inner {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    transition: transform 0.6s ease;
-    transform-style: preserve-3d;
-}
-
-.servicesItem:hover .flip-card-inner {
-    transform: rotateY(180deg);
-}
-
-/* Front and back side styling */
-.flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-}
-
-.flip-card-front {
-    background: #f8f8f8;
-    color: #333;
-}
-
-.flip-card-back {
-    background: #4CAF50; /* Back side color */
-    color: #fff;
-    transform: rotateY(180deg);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -543,6 +468,7 @@ section{
 
 .main-text .heading{
     color: var(--main-color);
+    font-size: 28px;
 }
 
 .main-text span{
@@ -609,6 +535,7 @@ section{
 
 .servicesItem h3{
     margin: 1rem 0 0.5rem;
+    font-size: 20px;
 }
 
 .servicesItem p{
@@ -904,7 +831,7 @@ section{
     border-radius: 5px; /* Rounded corners */
     text-align: center; /* Centers text */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
-    font-size: 14px; /* Font size */
+    font-size: 18px; /* Font size */
     white-space: nowrap; /* Prevents text from wrapping */
 }
 
@@ -1010,6 +937,13 @@ h2.counter span{
     padding: 20px 0 20px;
     position: relative;
   }
+
+
+  .h1{
+    text-align: center;
+    text-decoration: var(--main-color);
+
+  }
   .timeline:before {
     top: 0;
     bottom: 0;
@@ -1083,17 +1017,14 @@ h2.counter span{
     top: 16px;
     left: 50%;
     margin-left: -25px;
-    background-color: #999999;
+    background-color: #fff;
     z-index: 100;
-    border-top-right-radius: 50%;
-    border-top-left-radius: 50%;
-    border-bottom-right-radius: 50%;
-    border-bottom-left-radius: 50%;
+
   }
 
 
   .timeline-icon {
-    width: 50px; /* Icon width */
+    width: 80%; /* Icon width */
     height: 40px; /* Icon height */
     object-fit: contain; /* Ensures the image fits without distortion */
     border-radius: 80%; /* Optional: rounds the icon itself */
@@ -1116,19 +1047,19 @@ h2.counter span{
     right: auto;
   }
   .timeline-badge.primary {
-    background-color: #2e6da4 !important;
+    background-color: #fff !important;
   }
   .timeline-badge.success {
-    background-color: #3f903f !important;
+    background-color: #fff !important;
   }
   .timeline-badge.warning {
-    background-color: #080704 !important;
+    background-color: #fff !important;
   }
   .timeline-badge.danger {
-    background-color: #d9534f !important;
+    background-color: #fff !important;
   }
   .timeline-badge.info {
-    background-color: #5bc0de !important;
+    background-color: #fff !important;
   }
   .timeline-title {
     margin-top: 0;
@@ -1209,7 +1140,7 @@ textarea {
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 textarea {
@@ -1256,6 +1187,11 @@ textarea:focus {
     align-items: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     cursor: pointer;
+    transition: background 0.3s;
+}
+
+#progress:hover {
+    background: #45a049;
 }
 
 #progress-value i {
@@ -1439,7 +1375,7 @@ textarea:focus {
 
 @media(max-width:530px){
     html{
-        font-size: 80%;
+        font-size: 15px;
     }
     section{
         padding: 50px 3%;
@@ -1454,10 +1390,10 @@ textarea:focus {
         display: none;
     }
     .img-hero img{
-        width: 100%;
+        width: 104%;
     }
     .text-animate{
-        width: 23.8rem;
+        width: 25rem;
     }
     .btn-box{
         width: 266px;
