@@ -979,7 +979,6 @@ h2.counter span{
     float: left;
     border: 1px solid #5a0707;
     border-radius: 2px;
-    padding: 20px;
     position: relative;
     -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
@@ -1173,31 +1172,7 @@ textarea:focus {
     background: #45a049;
 }
 
-/* Progress button */
-#progress {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background: #4CAF50;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    transition: background 0.3s;
-}
 
-#progress:hover {
-    background: #45a049;
-}
-
-#progress-value i {
-    font-size: 24px;
-    color: #fff;
-}
 
 
 
@@ -1294,7 +1269,6 @@ textarea:focus {
 @media(max-width:991px){
     header,section,footer{
         padding-left: 3%;
-        padding-right: 3%;
     }
     .home,.portfolio-box{
         flex-direction: column-reverse;
@@ -1375,7 +1349,7 @@ textarea:focus {
 
 @media(max-width:530px){
     html{
-        font-size: 15px;
+        font-size: 80%;
     }
     section{
         padding: 50px 3%;
@@ -1390,10 +1364,10 @@ textarea:focus {
         display: none;
     }
     .img-hero img{
-        width: 104%;
+        width: 100%;
     }
     .text-animate{
-        width: 25rem;
+        width: 23.8rem;
     }
     .btn-box{
         width: 266px;
