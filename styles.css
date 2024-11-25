@@ -135,7 +135,7 @@ ul.navlist{
 /* ==================== home section css code ============================ */
 section{
     padding: 30px 8%;
-    font-size: 10px;
+    font-size: 18px;
 }
 
 .home{
@@ -976,7 +976,7 @@ h2.counter span{
     clear: both;
   }
   .timeline > li > .timeline-panel {
-    width: 42%;
+    width: 47%;
     float: left;
     border: 1px solid #5a0707;
     border-radius: 2px;
